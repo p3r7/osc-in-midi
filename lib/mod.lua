@@ -61,7 +61,7 @@ local function script_osc_in(path, args, from)
 
     -- Note on
     if osc_vel > 0 then
-      note_on(osc_note / 127, osc_vel)
+      note_on(osc_note, osc_vel)
 
       -- Note off
     else
